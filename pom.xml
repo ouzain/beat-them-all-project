@@ -12,5 +12,13 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.36</version> <!-- Utilisez la dernière version stable -->
+            <scope>provided</scope> <!-- Cette dépendance est seulement requise lors de la compilation, pas en exécution -->
+        </dependency>
+    </dependencies>
 
 </project>
