@@ -15,19 +15,19 @@ public abstract class Actors {
         this.name = name;
         this.healthPoints = healthPoints;
         this.attackPower = attackPower;
-        this.defense = defense;
+        this.defense= defense;
     }
 
-    public abstract void attack(Actors target);
-
+    public void attack(Actors actor){}
     public void receiveDamage(int damage) {
-        int effectiveDamage = Math.max(0, damage - defense);
-        healthPoints -= effectiveDamage;
-        System.out.println(name + " takes " + effectiveDamage + " damage, remaining HP: " + healthPoints);
     }
 
     public boolean isAlive() {
         return healthPoints > 0;
     }
-}
 
+    @Override
+    public String toString() {
+        return "name=" + name + ", healthPoints=" + healthPoints;
+    }
+}

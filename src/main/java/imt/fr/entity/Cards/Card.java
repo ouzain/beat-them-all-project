@@ -1,4 +1,4 @@
-package imt.fr.entity;
+package imt.fr.entity.Cards;
 
 
 import lombok.Getter;
@@ -8,17 +8,15 @@ import lombok.Setter;
 @Setter
 
 public class Card {
-    private String location;
+    private Location location;
     private String name;
-    private int start;
-    private int end;
     private int length;
 
-    public Card(String location, String name, int length) {
+
+
+    public Card(Location location, String name, int length) {
         this.location = location;
         this.name = name;
-        this.start = 0;
-        this.end = length;
         this.length = length;
     }
 
