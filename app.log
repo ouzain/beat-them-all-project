@@ -1,121 +1,130 @@
-déc. 01, 2024 10:05:07 PM imt.fr.service.Game initializeGame
-INFO: Game initialized on Card: Level1 at DESERT (length: 3)
-déc. 01, 2024 10:05:07 PM imt.fr.service.Game initializeGame
-INFO: Hero chosen: Warrior (HP: 10, Attack: 20, Defense: 3)
-déc. 01, 2024 10:05:07 PM imt.fr.service.Game initializeGame
-INFO: 3 enemies created for this level.
-déc. 01, 2024 10:05:07 PM imt.fr.service.Game startGame
-INFO: Initializing game...
-déc. 01, 2024 10:05:07 PM imt.fr.service.Game startGame
-INFO: Warrior begins the adventure!
-déc. 01, 2024 10:05:07 PM imt.fr.service.Game startGame
-INFO: An enemy appears!
-déc. 01, 2024 10:05:07 PM imt.fr.entity.Hero attack
-INFO: Warrior attacks Monster 1 with a power of 20
-déc. 01, 2024 10:05:07 PM imt.fr.entity.Enemies.Enemy receiveDamage
-INFO: Monster 1 takes 17 damage after defense, remaining HP: 0
-déc. 01, 2024 10:05:07 PM imt.fr.service.Game startGame
-INFO: The enemy has been defeated!
-déc. 01, 2024 10:05:07 PM imt.fr.service.Game startGame
-INFO: An enemy appears!
-déc. 01, 2024 10:05:07 PM imt.fr.entity.Hero attack
-INFO: Warrior attacks Monster 2 with a power of 20
-déc. 01, 2024 10:05:07 PM imt.fr.entity.Enemies.Enemy receiveDamage
-INFO: Monster 2 takes 16 damage after defense, remaining HP: 0
-déc. 01, 2024 10:05:07 PM imt.fr.service.Game startGame
-INFO: The enemy has been defeated!
-déc. 01, 2024 10:05:07 PM imt.fr.service.Game startGame
-INFO: An enemy appears!
-déc. 01, 2024 10:05:07 PM imt.fr.entity.Hero attack
-INFO: Warrior attacks Monster 3 with a power of 20
-déc. 01, 2024 10:05:07 PM imt.fr.entity.Enemies.Enemy receiveDamage
-INFO: Monster 3 takes 15 damage after defense, remaining HP: 0
-déc. 01, 2024 10:05:07 PM imt.fr.service.Game startGame
-INFO: The enemy has been defeated!
-
-déc. 01, 2024 10:05:07 PM imt.fr.service.Game startGame
-INFO: Congratulations, you completed the level!
-déc. 01, 2024 10:08:19 PM imt.fr.service.Game initializeGame
-INFO: Initializing game...
-déc. 01, 2024 10:08:57 PM imt.fr.service.Game initializeGame
-INFO: Game initialized on Card: Level1 at DESERT (length: 3)
-déc. 01, 2024 10:08:57 PM imt.fr.service.Game initializeGame
-INFO: Hero chosen: Mage (HP: 15, Attack: 15, Defense: 5)
-déc. 01, 2024 10:08:57 PM imt.fr.service.Game initializeGame
-INFO: 3 enemies created for this level.
-déc. 01, 2024 10:08:57 PM imt.fr.service.Game startGame
-INFO: Initializing game...
-déc. 01, 2024 10:08:57 PM imt.fr.service.Game startGame
-INFO: Mage begins the adventure!
-déc. 01, 2024 10:08:57 PM imt.fr.service.Game startGame
-INFO: An enemy appears!
-déc. 01, 2024 10:08:57 PM imt.fr.entity.Hero attack
-INFO: Mage attacks Monster 1 with a power of 15
-déc. 01, 2024 10:08:57 PM imt.fr.entity.Enemies.Enemy receiveDamage
-INFO: Monster 1 takes 12 damage after defense, remaining HP: 0
-déc. 01, 2024 10:08:57 PM imt.fr.service.Game startGame
-INFO: The enemy has been defeated!
-déc. 01, 2024 10:08:57 PM imt.fr.service.Game startGame
-INFO: An enemy appears!
-déc. 01, 2024 10:08:57 PM imt.fr.entity.Hero attack
-INFO: Mage attacks Monster 2 with a power of 15
-déc. 01, 2024 10:08:57 PM imt.fr.entity.Enemies.Enemy receiveDamage
-INFO: Monster 2 takes 11 damage after defense, remaining HP: 0
-déc. 01, 2024 10:08:57 PM imt.fr.service.Game startGame
-INFO: The enemy has been defeated!
-déc. 01, 2024 10:08:57 PM imt.fr.service.Game startGame
-INFO: An enemy appears!
-déc. 01, 2024 10:08:57 PM imt.fr.entity.Hero attack
-INFO: Mage attacks Monster 3 with a power of 15
-déc. 01, 2024 10:08:57 PM imt.fr.entity.Enemies.Enemy receiveDamage
-INFO: Monster 3 takes 10 damage after defense, remaining HP: 0
-déc. 01, 2024 10:08:57 PM imt.fr.service.Game startGame
-INFO: The enemy has been defeated!
-déc. 01, 2024 10:08:57 PM imt.fr.service.Game startGame
-INFO: Congratulations, you completed the level!
-déc. 01, 2024 10:28:15 PM imt.fr.service.Game initializeGame
-INFO: Initializing game...
-déc. 01, 2024 10:28:42 PM imt.fr.service.Game initializeGame
-INFO: Game initialized on Card: Level2 at FOREST (length: 4)
-déc. 01, 2024 10:28:42 PM imt.fr.service.Game initializeGame
-INFO: Hero chosen: Captain-Ousmane (HP: 10, Attack: 20, Defense: 3)
-déc. 01, 2024 10:28:42 PM imt.fr.service.Game initializeGame
-INFO: 4 enemies created for this level.
-déc. 01, 2024 10:28:42 PM imt.fr.service.Game startGame
-INFO: Initializing game...
-déc. 01, 2024 10:28:42 PM imt.fr.service.Game startGame
-INFO: Captain-Ousmane begins the adventure!
-déc. 01, 2024 10:28:42 PM imt.fr.service.Game startGame
-INFO: An enemy appears!
-déc. 01, 2024 10:28:42 PM imt.fr.entity.Hero attack
-INFO: Captain-Ousmane attacks Monster 1 with a power of 20
-déc. 01, 2024 10:28:42 PM imt.fr.entity.Enemies.Enemy receiveDamage
-INFO: Monster 1 takes 17 damage after defense, remaining HP: 0
-déc. 01, 2024 10:28:42 PM imt.fr.service.Game startGame
-INFO: The enemy has been defeated!
-déc. 01, 2024 10:28:42 PM imt.fr.service.Game startGame
-INFO: An enemy appears!
-déc. 01, 2024 10:28:42 PM imt.fr.entity.Hero attack
-INFO: Captain-Ousmane attacks Monster 2 with a power of 20
-déc. 01, 2024 10:28:42 PM imt.fr.entity.Enemies.Enemy receiveDamage
-INFO: Monster 2 takes 16 damage after defense, remaining HP: 0
-déc. 01, 2024 10:28:42 PM imt.fr.service.Game startGame
-INFO: The enemy has been defeated!
-déc. 01, 2024 10:28:42 PM imt.fr.service.Game startGame
-INFO: An enemy appears!
-déc. 01, 2024 10:28:42 PM imt.fr.entity.Hero attack
-INFO: Captain-Ousmane attacks Monster 3 with a power of 20
-déc. 01, 2024 10:28:42 PM imt.fr.entity.Enemies.Enemy receiveDamage
-INFO: Monster 3 takes 15 damage after defense, remaining HP: 0
-déc. 01, 2024 10:28:42 PM imt.fr.service.Game startGame
-INFO: The enemy has been defeated!
-déc. 01, 2024 10:28:42 PM imt.fr.service.Game startGame
-INFO: An enemy appears!
-déc. 01, 2024 10:28:42 PM imt.fr.entity.Hero attack
-INFO: Captain-Ousmane attacks Monster 4 with a power of 20
-déc. 01, 2024 10:28:42 PM imt.fr.entity.Enemies.Enemy receiveDamage
-INFO: Monster 4 takes 14 damage after defense, remaining HP: 0
-déc. 01, 2024 10:28:42 PM imt.fr.service.Game startGame
-INFO: The enemy has been defeated!
-déc. 01, 2024 10:28:42 PM imt.fr.service.Game startGame
-INFO: Congratulations, you completed the level!
+déc. 03, 2024 9:56:06 AM imt.fr.service.Game initializeGame
+INFOS: Initializing game...
+déc. 03, 2024 9:56:13 AM imt.fr.service.Game initializeGame
+INFOS: Game initialized on trail
+déc. 03, 2024 9:56:13 AM imt.fr.service.Game initializeGame
+INFOS: Hero chosen: Rock-Abdoulaye (HP: 15, Attack: 15, Defense: 5)
+déc. 03, 2024 9:56:13 AM imt.fr.service.Game initializeGame
+INFOS: 3 enemies created for this level.
+déc. 03, 2024 9:56:13 AM imt.fr.service.Game startGame
+INFOS: Initializing game...
+déc. 03, 2024 9:56:13 AM imt.fr.service.Game startGame
+INFOS: Rock-Abdoulaye begins the adventure!
+déc. 03, 2024 9:56:13 AM imt.fr.service.Game startGame
+INFOS: An enemy appears!
+déc. 03, 2024 9:56:13 AM imt.fr.entity.Hero attack
+INFOS: Rock-Abdoulaye attacks Monster 1 with a power of 15
+déc. 03, 2024 9:56:13 AM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 1 takes 12 damage after defense, remaining HP: 0
+déc. 03, 2024 9:56:13 AM imt.fr.service.Game startGame
+INFOS: The enemy has been defeated!
+déc. 03, 2024 9:56:13 AM imt.fr.service.Game startGame
+INFOS: An enemy appears!
+déc. 03, 2024 9:56:13 AM imt.fr.entity.Hero attack
+INFOS: Rock-Abdoulaye attacks Monster 2 with a power of 15
+déc. 03, 2024 9:56:13 AM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 2 takes 11 damage after defense, remaining HP: 0
+déc. 03, 2024 9:56:13 AM imt.fr.service.Game startGame
+INFOS: The enemy has been defeated!
+déc. 03, 2024 9:56:13 AM imt.fr.service.Game startGame
+INFOS: An enemy appears!
+déc. 03, 2024 9:56:13 AM imt.fr.entity.Hero attack
+INFOS: Rock-Abdoulaye attacks Monster 3 with a power of 15
+déc. 03, 2024 9:56:13 AM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 3 takes 10 damage after defense, remaining HP: 0
+déc. 03, 2024 9:56:13 AM imt.fr.service.Game startGame
+INFOS: The enemy has been defeated!
+déc. 03, 2024 9:56:13 AM imt.fr.service.Game startGame
+INFOS: Congratulations, you completed the level!
+déc. 03, 2024 9:56:22 AM imt.fr.service.Game initializeGame
+INFOS: Initializing game...
+déc. 03, 2024 9:56:35 AM imt.fr.service.Game initializeGame
+INFOS: Game initialized on trail
+déc. 03, 2024 9:56:35 AM imt.fr.service.Game initializeGame
+INFOS: Hero chosen: Archer (HP: 20, Attack: 12, Defense: 2)
+déc. 03, 2024 9:56:35 AM imt.fr.service.Game initializeGame
+INFOS: 3 enemies created for this level.
+déc. 03, 2024 9:56:35 AM imt.fr.service.Game startGame
+INFOS: Initializing game...
+déc. 03, 2024 9:56:35 AM imt.fr.service.Game startGame
+INFOS: Archer begins the adventure!
+déc. 03, 2024 9:56:35 AM imt.fr.service.Game startGame
+INFOS: An enemy appears!
+déc. 03, 2024 9:56:35 AM imt.fr.entity.Hero attack
+INFOS: Archer attacks Monster 1 with a power of 12
+déc. 03, 2024 9:56:35 AM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 1 takes 9 damage after defense, remaining HP: 0
+déc. 03, 2024 9:56:35 AM imt.fr.service.Game startGame
+INFOS: The enemy has been defeated!
+déc. 03, 2024 9:56:35 AM imt.fr.service.Game startGame
+INFOS: An enemy appears!
+déc. 03, 2024 9:56:35 AM imt.fr.entity.Hero attack
+INFOS: Archer attacks Monster 2 with a power of 12
+déc. 03, 2024 9:56:35 AM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 2 takes 8 damage after defense, remaining HP: 0
+déc. 03, 2024 9:56:35 AM imt.fr.service.Game startGame
+INFOS: The enemy has been defeated!
+déc. 03, 2024 9:56:35 AM imt.fr.service.Game startGame
+INFOS: An enemy appears!
+déc. 03, 2024 9:56:35 AM imt.fr.entity.Hero attack
+INFOS: Archer attacks Monster 3 with a power of 12
+déc. 03, 2024 9:56:35 AM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 3 takes 7 damage after defense, remaining HP: 3
+déc. 03, 2024 9:56:35 AM imt.fr.entity.Enemies.Enemy attack
+INFOS: Monster 3 attacks Archer with a power of 6
+déc. 03, 2024 9:56:35 AM imt.fr.entity.Hero receiveDamage
+INFOS: Archer takes 4 damage (reduced by defense), remaining HP: 16
+déc. 03, 2024 9:56:35 AM imt.fr.entity.Hero attack
+INFOS: Archer attacks Monster 3 with a power of 12
+déc. 03, 2024 9:56:35 AM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 3 takes 7 damage after defense, remaining HP: 0
+déc. 03, 2024 9:56:35 AM imt.fr.service.Game startGame
+INFOS: The enemy has been defeated!
+déc. 03, 2024 9:56:35 AM imt.fr.service.Game startGame
+INFOS: Congratulations, you completed the level!
+déc. 03, 2024 10:09:28 AM imt.fr.service.Game initializeGame
+INFOS: Initializing game...
+déc. 03, 2024 10:09:36 AM imt.fr.service.Game initializeGame
+INFOS: Game initialized on trail
+déc. 03, 2024 10:09:36 AM imt.fr.service.Game initializeGame
+INFOS: Hero chosen: Rock-Abdoulaye (HP: 15, Attack: 15, Defense: 5)
+déc. 03, 2024 10:09:36 AM imt.fr.service.Game initializeGame
+INFOS: 3 enemies created for this level.
+déc. 03, 2024 10:09:36 AM imt.fr.service.Game startGame
+INFOS: Initializing game...
+déc. 03, 2024 10:09:36 AM imt.fr.service.Game startGame
+INFOS: Rock-Abdoulaye begins the adventure!
+déc. 03, 2024 10:09:36 AM imt.fr.service.Game startGame
+INFOS: An enemy appears! It's a Monster 1!
+déc. 03, 2024 10:09:36 AM imt.fr.service.Game startGame
+INFOS: Rock-Abdoulaye attacks 3 times!
+déc. 03, 2024 10:09:36 AM imt.fr.entity.Hero attack
+INFOS: Rock-Abdoulaye attacks Monster 1 with a power of 15
+déc. 03, 2024 10:09:36 AM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 1 takes 12 damage after defense, remaining HP: 0
+déc. 03, 2024 10:09:36 AM imt.fr.service.Game startGame
+INFOS: The Monster 1 has been defeated!
+déc. 03, 2024 10:09:36 AM imt.fr.service.Game startGame
+INFOS: An enemy appears! It's a Monster 2!
+déc. 03, 2024 10:09:36 AM imt.fr.service.Game startGame
+INFOS: Rock-Abdoulaye attacks 4 times!
+déc. 03, 2024 10:09:36 AM imt.fr.entity.Hero attack
+INFOS: Rock-Abdoulaye attacks Monster 2 with a power of 15
+déc. 03, 2024 10:09:36 AM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 2 takes 11 damage after defense, remaining HP: 0
+déc. 03, 2024 10:09:36 AM imt.fr.service.Game startGame
+INFOS: The Monster 2 has been defeated!
+déc. 03, 2024 10:09:36 AM imt.fr.service.Game startGame
+INFOS: An enemy appears! It's a Monster 3!
+déc. 03, 2024 10:09:36 AM imt.fr.service.Game startGame
+INFOS: Rock-Abdoulaye attacks 3 times!
+déc. 03, 2024 10:09:36 AM imt.fr.entity.Hero attack
+INFOS: Rock-Abdoulaye attacks Monster 3 with a power of 15
+déc. 03, 2024 10:09:36 AM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 3 takes 10 damage after defense, remaining HP: 0
+déc. 03, 2024 10:09:36 AM imt.fr.service.Game startGame
+INFOS: The Monster 3 has been defeated!
+déc. 03, 2024 10:09:36 AM imt.fr.service.Game startGame
+INFOS: Congratulations, you completed the level!
+déc. 03, 2024 10:11:02 AM imt.fr.service.Game initializeGame
+INFOS: Initializing game...

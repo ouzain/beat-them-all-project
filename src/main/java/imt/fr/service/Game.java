@@ -11,10 +11,11 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 import java.util.logging.LogManager;
 import java.util.logging.LogManager;
-
+import imt.fr.entity.Enemies.Gangster;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class Game {
 
@@ -106,34 +107,63 @@ public class Game {
     }
 
 
+
+
     public void startGame() {
         logger.info("Initializing game...");
-        logger.info(hero.getName()+" begins the adventure!");
+        logger.info(hero.getName() + " begins the adventure!");
+        Random random = new Random();
+
         for (Enemy enemy : enemies) {
             if (!hero.isAlive()) {
                 logger.info("The hero has fallen. Game over.");
                 return;
             }
 
-            logger.info("An enemy appears!");
-            //System.out.println("An enemy appears!");
+            logger.info("An enemy appears! It's a " + enemy.getName() + "!");
+
+            // Vérifier si l'ennemi est un gangster
+            boolean enemyAttacksFirst = enemy instanceof Gangster;
+
             while (hero.isAlive() && enemy.isAlive()) {
-                hero.attack(enemy);
+                // Cas spécial : les gangsters attaquent d'abord
+                if (enemyAttacksFirst) {
+                    logger.info(enemy.getName() + " attacks first!");
+                    enemy.attack(hero);
+                    enemyAttacksFirst = false; // Après la première attaque, le combat devient normal
+                    if (!hero.isAlive()) {
+                        logger.info("The hero has fallen. Game over.");
+                        return;
+                    }
+                }
+
+                // Le héros attaque entre 1 et 5 fois aléatoirement
+                int heroAttackCount = random.nextInt(5) + 1; // Génère un nombre entre 1 et 5
+                logger.info(hero.getName() + " attacks " + heroAttackCount + " times!");
+
+                for (int i = 0; i < heroAttackCount && enemy.isAlive(); i++) {
+                    hero.attack(enemy);
+                }
+
+                // Si l'ennemi est encore vivant, il attaque une fois
                 if (enemy.isAlive()) {
+                    logger.info(enemy.getName() + " counterattacks!");
                     enemy.attack(hero);
                 }
             }
 
             if (!enemy.isAlive()) {
-                logger.info("The enemy has been defeated!");
+                logger.info("The " + enemy.getName() + " has been defeated!");
             }
         }
 
+        // Fin du niveau
         if (hero.isAlive()) {
             logger.info("Congratulations, you completed the level!");
         } else {
             logger.info("Defeat. Try again!");
         }
     }
+
 }
 
