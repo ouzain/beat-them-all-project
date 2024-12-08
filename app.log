@@ -128,3 +128,169 @@ déc. 03, 2024 10:09:36 AM imt.fr.service.Game startGame
 INFOS: Congratulations, you completed the level!
 déc. 03, 2024 10:11:02 AM imt.fr.service.Game initializeGame
 INFOS: Initializing game...
+déc. 08, 2024 11:57:57 AM imt.fr.service.Game initializeGame
+INFOS: Initializing game...
+déc. 08, 2024 11:58:05 AM imt.fr.service.Game initializeGame
+INFOS: Game initialized on trail
+déc. 08, 2024 11:58:05 AM imt.fr.service.Game initializeGame
+INFOS: Hero chosen: Captain-Ousmane (HP: 10, Attack: 20, Defense: 3)
+déc. 08, 2024 11:58:05 AM imt.fr.service.Game initializeGame
+INFOS: 4 enemies created for this level.
+déc. 08, 2024 11:58:05 AM imt.fr.service.Game startGame
+INFOS: Initializing game...
+déc. 08, 2024 11:58:05 AM imt.fr.service.Game startGame
+INFOS: Captain-Ousmane begins the adventure!
+déc. 08, 2024 11:58:05 AM imt.fr.service.Game startGame
+INFOS: An enemy appears! It's a Monster 1!
+déc. 08, 2024 11:58:05 AM imt.fr.service.Game startGame
+INFOS: Captain-Ousmane attacks 3 times!
+déc. 08, 2024 11:58:05 AM imt.fr.entity.Hero attack
+INFOS: Captain-Ousmane attacks Monster 1 with a power of 20
+déc. 08, 2024 11:58:05 AM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 1 takes 17 damage after defense, remaining HP: 0
+déc. 08, 2024 11:58:05 AM imt.fr.service.Game startGame
+INFOS: The Monster 1 has been defeated!
+déc. 08, 2024 11:58:05 AM imt.fr.service.Game startGame
+INFOS: An enemy appears! It's a Monster 2!
+déc. 08, 2024 11:58:05 AM imt.fr.service.Game startGame
+INFOS: Captain-Ousmane attacks 3 times!
+déc. 08, 2024 11:58:05 AM imt.fr.entity.Hero attack
+INFOS: Captain-Ousmane attacks Monster 2 with a power of 20
+déc. 08, 2024 11:58:05 AM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 2 takes 16 damage after defense, remaining HP: 0
+déc. 08, 2024 11:58:05 AM imt.fr.service.Game startGame
+INFOS: The Monster 2 has been defeated!
+déc. 08, 2024 11:58:05 AM imt.fr.service.Game startGame
+INFOS: An enemy appears! It's a Monster 3!
+déc. 08, 2024 11:58:05 AM imt.fr.service.Game startGame
+INFOS: Captain-Ousmane attacks 5 times!
+déc. 08, 2024 11:58:05 AM imt.fr.entity.Hero attack
+INFOS: Captain-Ousmane attacks Monster 3 with a power of 20
+déc. 08, 2024 11:58:05 AM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 3 takes 15 damage after defense, remaining HP: 0
+déc. 08, 2024 11:58:05 AM imt.fr.service.Game startGame
+INFOS: The Monster 3 has been defeated!
+déc. 08, 2024 11:58:05 AM imt.fr.service.Game startGame
+INFOS: An enemy appears! It's a Monster 4!
+déc. 08, 2024 11:58:05 AM imt.fr.service.Game startGame
+INFOS: Captain-Ousmane attacks 4 times!
+déc. 08, 2024 11:58:05 AM imt.fr.entity.Hero attack
+INFOS: Captain-Ousmane attacks Monster 4 with a power of 20
+déc. 08, 2024 11:58:05 AM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 4 takes 14 damage after defense, remaining HP: 0
+déc. 08, 2024 11:58:05 AM imt.fr.service.Game startGame
+INFOS: The Monster 4 has been defeated!
+déc. 08, 2024 11:58:05 AM imt.fr.service.Game startGame
+INFOS: Congratulations, you completed the level!
+déc. 08, 2024 12:02:50 PM imt.fr.service.Game initializeGame
+INFOS: Initializing game...
+déc. 08, 2024 12:03:28 PM imt.fr.service.Game initializeGame
+INFOS: Initializing game...
+déc. 08, 2024 12:06:44 PM imt.fr.service.Game initializeGame
+INFOS: Initializing game...
+déc. 08, 2024 12:06:51 PM imt.fr.service.Game initializeGame
+INFOS: Game initialized on trail
+déc. 08, 2024 12:06:51 PM imt.fr.service.Game initializeGame
+INFOS: Hero chosen: Paladin (HP: 22, Attack: 8, Defense: 6)
+déc. 08, 2024 12:06:51 PM imt.fr.service.Game initializeGame
+INFOS: 3 enemies created for this level.
+déc. 08, 2024 12:06:51 PM imt.fr.service.Game startGame
+INFOS: Initializing game...
+déc. 08, 2024 12:06:51 PM imt.fr.service.Game startGame
+INFOS: Paladin begins the adventure!
+déc. 08, 2024 12:06:51 PM imt.fr.service.Game startGame
+INFOS: An enemy appears! It's a Monster 1!
+déc. 08, 2024 12:06:51 PM imt.fr.service.Game startGame
+INFOS: Paladin attacks 3 times!
+déc. 08, 2024 12:06:51 PM imt.fr.entity.Hero attack
+INFOS: Paladin attacks Monster 1 with a power of 8
+déc. 08, 2024 12:06:51 PM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 1 takes 5 damage after defense, remaining HP: 1
+déc. 08, 2024 12:06:51 PM imt.fr.entity.Hero attack
+INFOS: Paladin attacks Monster 1 with a power of 8
+déc. 08, 2024 12:06:51 PM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 1 takes 5 damage after defense, remaining HP: 0
+déc. 08, 2024 12:06:51 PM imt.fr.service.Game startGame
+INFOS: The Monster 1 has been defeated!
+déc. 08, 2024 12:06:51 PM imt.fr.service.Game startGame
+INFOS: An enemy appears! It's a Monster 2!
+déc. 08, 2024 12:06:51 PM imt.fr.service.Game startGame
+INFOS: Paladin attacks 2 times!
+déc. 08, 2024 12:06:51 PM imt.fr.entity.Hero attack
+INFOS: Paladin attacks Monster 2 with a power of 8
+déc. 08, 2024 12:06:51 PM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 2 takes 4 damage after defense, remaining HP: 4
+déc. 08, 2024 12:06:51 PM imt.fr.entity.Hero attack
+INFOS: Paladin attacks Monster 2 with a power of 8
+déc. 08, 2024 12:06:51 PM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 2 takes 4 damage after defense, remaining HP: 0
+déc. 08, 2024 12:06:51 PM imt.fr.service.Game startGame
+INFOS: The Monster 2 has been defeated!
+déc. 08, 2024 12:06:51 PM imt.fr.service.Game startGame
+INFOS: An enemy appears! It's a Monster 3!
+déc. 08, 2024 12:06:51 PM imt.fr.service.Game startGame
+INFOS: Paladin attacks 4 times!
+déc. 08, 2024 12:06:51 PM imt.fr.entity.Hero attack
+INFOS: Paladin attacks Monster 3 with a power of 8
+déc. 08, 2024 12:06:51 PM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 3 takes 3 damage after defense, remaining HP: 7
+déc. 08, 2024 12:06:51 PM imt.fr.entity.Hero attack
+INFOS: Paladin attacks Monster 3 with a power of 8
+déc. 08, 2024 12:06:51 PM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 3 takes 3 damage after defense, remaining HP: 4
+déc. 08, 2024 12:06:51 PM imt.fr.entity.Hero attack
+INFOS: Paladin attacks Monster 3 with a power of 8
+déc. 08, 2024 12:06:51 PM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 3 takes 3 damage after defense, remaining HP: 1
+déc. 08, 2024 12:06:51 PM imt.fr.entity.Hero attack
+INFOS: Paladin attacks Monster 3 with a power of 8
+déc. 08, 2024 12:06:51 PM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 3 takes 3 damage after defense, remaining HP: 0
+déc. 08, 2024 12:06:51 PM imt.fr.service.Game startGame
+INFOS: The Monster 3 has been defeated!
+déc. 08, 2024 12:06:51 PM imt.fr.service.Game startGame
+INFOS: Congratulations, you completed the level!
+déc. 08, 2024 12:49:18 PM imt.fr.service.Game initializeGame
+INFOS: Initializing game...
+déc. 08, 2024 12:49:26 PM imt.fr.service.Game initializeGame
+INFOS: Game initialized on trail
+déc. 08, 2024 12:49:26 PM imt.fr.service.Game initializeGame
+INFOS: Hero chosen: Captain (HP: 110, Attack: 20, Defense: 10)
+déc. 08, 2024 12:49:26 PM imt.fr.service.Game initializeGame
+INFOS: 3 enemies created for this level.
+déc. 08, 2024 12:49:26 PM imt.fr.service.Game startGame
+INFOS: Initializing game...
+déc. 08, 2024 12:49:26 PM imt.fr.service.Game startGame
+INFOS: Captain begins the adventure!
+déc. 08, 2024 12:49:26 PM imt.fr.service.Game startGame
+INFOS: An enemy appears! It's a Monster 1!
+déc. 08, 2024 12:49:26 PM imt.fr.service.Game startGame
+INFOS: Captain attacks 5 times!
+déc. 08, 2024 12:49:26 PM imt.fr.entity.Hero attack
+INFOS: Captain attacks Monster 1 with a power of 20
+déc. 08, 2024 12:49:26 PM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 1 takes 17 damage after defense, remaining HP: 0
+déc. 08, 2024 12:49:26 PM imt.fr.service.Game startGame
+INFOS: The Monster 1 has been defeated!
+déc. 08, 2024 12:49:26 PM imt.fr.service.Game startGame
+INFOS: An enemy appears! It's a Monster 2!
+déc. 08, 2024 12:49:26 PM imt.fr.service.Game startGame
+INFOS: Captain attacks 1 times!
+déc. 08, 2024 12:49:26 PM imt.fr.entity.Hero attack
+INFOS: Captain attacks Monster 2 with a power of 20
+déc. 08, 2024 12:49:26 PM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 2 takes 16 damage after defense, remaining HP: 0
+déc. 08, 2024 12:49:26 PM imt.fr.service.Game startGame
+INFOS: The Monster 2 has been defeated!
+déc. 08, 2024 12:49:26 PM imt.fr.service.Game startGame
+INFOS: An enemy appears! It's a Monster 3!
+déc. 08, 2024 12:49:26 PM imt.fr.service.Game startGame
+INFOS: Captain attacks 5 times!
+déc. 08, 2024 12:49:26 PM imt.fr.entity.Hero attack
+INFOS: Captain attacks Monster 3 with a power of 20
+déc. 08, 2024 12:49:26 PM imt.fr.entity.Enemies.Enemy receiveDamage
+INFOS: Monster 3 takes 15 damage after defense, remaining HP: 0
+déc. 08, 2024 12:49:26 PM imt.fr.service.Game startGame
+INFOS: The Monster 3 has been defeated!
+déc. 08, 2024 12:49:26 PM imt.fr.service.Game startGame
+INFOS: Congratulations, you completed the level!

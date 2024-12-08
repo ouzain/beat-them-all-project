@@ -4,23 +4,25 @@ import imt.fr.entity.Enemies.Enemy;
 import imt.fr.service.Actions;
 import lombok.Getter;
 
-import java.util.Random;
-
 @Getter
-public class Hero extends Actors implements Actions {
+public abstract class Hero extends Actors implements Actions {
     private boolean specialAbilityUsed;
-
-    public enum SpecialAbility {
-        MATRIX, // Dodge bullets for 2 turns
-        HEAL,   // Restore health points
-        ONE_SHOT // Kill all enemies in one hit
-    }
-
 
     public Hero(String name, int healthPoints, int attackPower, int defense) {
         super(name, healthPoints, attackPower, defense);
         this.specialAbilityUsed = false;
     }
+
+    // Getter et Setter pour specialAbilityUsed
+    public boolean isSpecialAbilityUsed() {
+        return specialAbilityUsed;
+    }
+
+    public void setSpecialAbilityUsed(boolean specialAbilityUsed) {
+        this.specialAbilityUsed = specialAbilityUsed;
+    }
+
+    public abstract void useSpecialAbility(Enemy target);
 
     @Override
     public void attack(Actors target) {
@@ -35,12 +37,12 @@ public class Hero extends Actors implements Actions {
         }
     }
 
-
     @Override
     public void receiveDamage(int damage) {
+        // Calcul des dégâts après prise en compte de la défense
         int effectiveDamage = Math.max(0, damage - this.defense);
         this.healthPoints -= effectiveDamage;
-        this.healthPoints = Math.max(0, this.healthPoints);
+        this.healthPoints = Math.max(0, this.healthPoints);  // Assurer que les HP ne soient pas négatifs
 
         if (effectiveDamage > 0) {
             logger.info(name + " takes " + effectiveDamage + " damage (reduced by defense), remaining HP: " + healthPoints);
@@ -48,44 +50,4 @@ public class Hero extends Actors implements Actions {
             logger.info(name + " blocks the attack completely with their defense. No damage taken. Remaining HP: " + healthPoints);
         }
     }
-
-
-    private SpecialAbility getRandomSpecialAbility() {
-        SpecialAbility[] abilities = SpecialAbility.values();
-        Random random = new Random();
-        return abilities[random.nextInt(abilities.length)];
-    }
-
-    public void useSpecialAbility(Enemy target) {
-        if (specialAbilityUsed) {
-            logger.info("Special ability already used.");
-            return;
-        }
-
-        SpecialAbility ability = getRandomSpecialAbility();
-        logger.info(name + " randomly selects special ability: " + ability);
-
-        switch (ability) {
-            case MATRIX:
-                logger.info(name + " uses Matrix and dodges attacks for 2 turns!");
-                this.healthPoints+= 2*target.attackPower;
-                break;
-            case HEAL:
-                logger.info(name + " uses Heal and restores health!");
-                this.healthPoints += 10;
-                break;
-            case ONE_SHOT:
-                if (target != null) {
-                    logger.info(name + " uses One Shot and defeats " + target.getName() + " instantly!");
-                    target.receiveDamage(target.getHealthPoints()); // Reduce enemy health to zero
-                }
-                break;
-            default:
-                logger.info("Unknown ability.");
-                break;
-        }
-
-        this.specialAbilityUsed = true;
-    }
-
 }
