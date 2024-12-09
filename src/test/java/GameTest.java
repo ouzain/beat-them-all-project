@@ -41,7 +41,7 @@ public class GameTest {
         Gangster gangster = new Gangster("TestGangster", 20, 5, 3); // Gangster with 5 attack
         //FIXME: logique ?
     }
-
+   
 
     @Test
     public void testEnemyReceivesDamage() {
@@ -53,4 +53,6 @@ public class GameTest {
 
         assertEquals(13, enemy.getHealthPoints(), "Enemy should lose 7 HP after 10 damage minus 3 defense.");
     }
+  // Test special ability 
+    
 }
