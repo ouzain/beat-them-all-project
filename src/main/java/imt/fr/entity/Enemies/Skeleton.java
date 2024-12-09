@@ -4,8 +4,8 @@ import imt.fr.entity.Actors;
 import imt.fr.entity.Enemies.Enemy;
 
 public class Skeleton extends Enemy {
-    public Skeleton() {
-        super("Skeleton", 15, 9,8);  // Appel au constructeur parent
+    public Skeleton(String name, int healthPoints, int attackPower, int defense) {
+        super(name, healthPoints, attackPower, defense);
     }
 
 

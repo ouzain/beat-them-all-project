@@ -3,7 +3,7 @@ package imt.fr.service;
 
 import imt.fr.entity.Cards.Card;
 import imt.fr.entity.Cards.Location;
-import imt.fr.entity.Enemies.Enemy;
+import imt.fr.entity.Enemies.*;
 import imt.fr.entity.Hero;
 import java.util.Scanner;
 //import org.apache.logging.log4j.LogManager;
@@ -11,7 +11,6 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 import java.util.logging.LogManager;
 import java.util.logging.LogManager;
-import imt.fr.entity.Enemies.Gangster;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,10 +23,31 @@ public class Game {
     private Hero hero;
     private List<Enemy> enemies;
 
+    /**
+     * Initializes the game by setting up the map, creating enemies based on the chosen level,
+     * and allowing the player to select a hero.
+     * <p>
+     * The player chooses a difficulty level (Level1, Level2, or Level3), which determines:
+     * <ul>
+     *     <li>The length of the map.</li>
+     *     <li>The number and types of enemies created for the level.</li>
+     * </ul>
+     * The player also selects a hero from a list of predefined characters, each with unique attributes.
+     * <p>
+     * Enemies are distributed as follows:
+     * <ul>
+     *     <li><strong>Level1:</strong> 3 enemies, random mix of Catcher, Necromancer, and Skeleton.</li>
+     *     <li><strong>Level2:</strong> 4 enemies, random mix of Catcher, Necromancer, and Skeleton.</li>
+     *     <li><strong>Level3:</strong> 5 enemies, random mix of Catcher, Necromancer, Skeleton, and Gangster
+     *     (Gangsters appear only in Level3).</li>
+     * </ul>
+     *
+     * At the end of this method, the selected hero, map, and enemies are initialized and logged.
+     */
     public void initializeGame() {
         logger.info("Initializing game...");
 
-        // Création de la carte
+        // Choix du niveau de difficulté
         System.out.println("Choose the difficulty level:");
         System.out.println("1. Level1 (3 enemies)");
         System.out.println("2. Level2 (4 enemies)");
@@ -49,7 +69,7 @@ public class Game {
             }
         }
 
-// Définir la longueur de la carte, le niveau choisi et le lieu du parcours
+        // Définir la longueur de la carte, le niveau choisi et le lieu du parcours
         int length = 3 + (levelChoice - 1); // Level1 -> 3, Level2 -> 4, Level3 -> 5
         String levelName = "Level" + levelChoice;
         Location location = switch (levelChoice) {
@@ -63,18 +83,28 @@ public class Game {
         card = new Card(location, levelName, length);
         System.out.println("You have chosen: " + levelName + " with a length of " + length);
 
-// Création des ennemis
+        // Création des ennemis spécifiques
         enemies = new ArrayList<>();
         for (int i = 1; i <= length; i++) {
-            enemies.add(new Enemy("Monster " + i, 4 + i * 2, 3 + i, 2 + i)); // PV, Attaque, Défense évolutifs
+            if (levelChoice == 3 && i % 2 == 0) {
+                // Ajouter des Gangsters dans le Level3
+                enemies.add(new Gangster("Gangster " + i, 15, 8, 3));
+            } else {
+                // Ajouter aléatoirement des Catcher, Necromancer et Skeleton
+                int enemyType = (int) (Math.random() * 3); // Générer un type aléatoire
+                switch (enemyType) {
+                    case 0 -> enemies.add(new Catcher("Catcher N°" + i, 20, 6, 5));
+                    case 1 -> enemies.add(new Necromancer("Necromancer N°" + i, 18, 7, 4));
+                    case 2 -> enemies.add(new Skeleton("Skeleton N°" + i, 16, 5, 2));
+                }
+            }
         }
         System.out.println(length + " enemies have been created for this level!");
-
 
         // Création de la liste des héros et choix du héros
         List<Hero> availableHeroes = new ArrayList<>();
         availableHeroes.add(new Hero("Captain-Ousmane", 10, 20, 3));
-        availableHeroes.add(new Hero("Rock-Abdoulaye",15 , 15, 5));
+        availableHeroes.add(new Hero("Rock-Abdoulaye", 15, 15, 5));
         availableHeroes.add(new Hero("Archer", 20, 12, 2));
         availableHeroes.add(new Hero("Paladin", 22, 8, 6));
         availableHeroes.add(new Hero("Rogue", 17, 14, 4));
@@ -108,7 +138,32 @@ public class Game {
 
 
 
-
+    /**
+     * Starts the game and handles the main gameplay loop.
+     * <p>
+     * The method guides the hero through the list of enemies, handling combat mechanics
+     * and special conditions for specific types of enemies. The game ends when either:
+     * <ul>
+     *     <li>The hero defeats all enemies and completes the level.</li>
+     *     <li>The hero's health points drop to zero, resulting in a game over.</li>
+     * </ul>
+     * <p>
+     * Key gameplay mechanics include:
+     * <ul>
+     *     <li><strong>Gangsters attack first:</strong> Gangsters always initiate combat with a single attack.</li>
+     *     <li><strong>Hero's attacks:</strong> The hero attacks a random number of times (1 to 5) in each turn.</li>
+     *     <li><strong>Counterattacks:</strong> Enemies counterattack if they survive the hero's attacks in a turn.</li>
+     * </ul>
+     *
+     * Logs important events during the gameplay, such as:
+     * <ul>
+     *     <li>The appearance of enemies.</li>
+     *     <li>The outcome of each attack or counterattack.</li>
+     *     <li>The hero's death or the defeat of all enemies.</li>
+     * </ul>
+     *
+     * @throws IllegalStateException if the game state is inconsistent, e.g., no hero or enemies initialized.
+     */
     public void startGame() {
         logger.info("Initializing game...");
         logger.info(hero.getName() + " begins the adventure!");

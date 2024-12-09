@@ -9,6 +9,8 @@ import java.util.logging.LogManager;
 public class Main {
     public static void main(String[] args) {
 
+        System.out.println("Binome : Ousmane DIALLO & Abdoulaye AW");
+
         InputStream configFile = Main.class.getClassLoader().getResourceAsStream("./logging.properties");
         try{
             LogManager.getLogManager().readConfiguration(configFile);
