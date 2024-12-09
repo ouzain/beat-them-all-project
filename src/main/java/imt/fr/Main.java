@@ -9,7 +9,6 @@ import java.util.logging.LogManager;
 public class Main {
     public static void main(String[] args) {
 
-        // Beautify the output for the binome information
         System.out.println("***************************************");
         System.out.println("*           BEAT THEM ALL             *");
         System.out.println("***************************************");
