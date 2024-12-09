@@ -5,6 +5,9 @@ import imt.fr.entity.Cards.Card;
 import imt.fr.entity.Cards.Location;
 import imt.fr.entity.Enemies.*;
 import imt.fr.entity.Hero;
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.Scanner;
 //import org.apache.logging.log4j.LogManager;
 //import org.apache.logging.log4j.Logger;
@@ -16,6 +19,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+@Setter
+@Getter
 public class Game {
 
     private static final Logger logger = Logger.getLogger("Main.java");

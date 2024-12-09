@@ -3,10 +3,12 @@ package imt.fr.entity;
 import imt.fr.entity.Enemies.Enemy;
 import imt.fr.service.Actions;
 import lombok.Getter;
+import lombok.Setter;
 
 import java.util.Random;
 
 @Getter
+@Setter
 public class Hero extends Actors implements Actions {
     private boolean specialAbilityUsed;
 
