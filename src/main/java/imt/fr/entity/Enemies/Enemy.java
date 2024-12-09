@@ -15,8 +15,7 @@ public class Enemy extends Actors implements Actions {
 
     @Override
     public void attack(Actors target) {
-        if (target instanceof Hero) {
-            Hero heroTarget = (Hero) target; // Conversion explicite vers Hero
+        if (target instanceof Hero heroTarget) {
             logger.info(name + " attacks " + heroTarget.getName() + " with a power of " + attackPower);
             heroTarget.receiveDamage(attackPower);
         } else if (target != null) {

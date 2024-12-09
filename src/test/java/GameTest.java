@@ -13,8 +13,8 @@ public class GameTest {
 
     @Test
     public void testHeroKillsEnemy() {
-        Hero hero = new Hero("TestHero", 30, 13, 5); // Hero with 10 attack
-        Enemy enemy = new Enemy("TestEnemy", 10, 5, 3); // Enemy with 10 HP
+        Hero hero = new Hero("TestHero", 30, 13, 5);
+        Enemy enemy = new Enemy("TestEnemy", 10, 5, 3);
 
         hero.attack(enemy);
 
