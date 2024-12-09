@@ -45,7 +45,7 @@ public class Game {
      * At the end of this method, the selected hero, map, and enemies are initialized and logged.
      */
     public void initializeGame() {
-        logger.info("Initializing game...");
+        logger.info("Initializing the Game...");
 
         // Choix du niveau de difficulté
         System.out.println("Choose the difficulty level:");
@@ -88,14 +88,14 @@ public class Game {
         for (int i = 1; i <= length; i++) {
             if (levelChoice == 3 && i % 2 == 0) {
                 // Ajouter des Gangsters dans le Level3
-                enemies.add(new Gangster("Gangster " + i, 15, 8, 3));
+                enemies.add(new Gangster("Gangster N°" + i, 15, 14, 3));
             } else {
                 // Ajouter aléatoirement des Catcher, Necromancer et Skeleton
-                int enemyType = (int) (Math.random() * 3); // Générer un type aléatoire
+                int enemyType = (int) (Math.random() * 3);
                 switch (enemyType) {
                     case 0 -> enemies.add(new Catcher("Catcher N°" + i, 20, 6, 5));
                     case 1 -> enemies.add(new Necromancer("Necromancer N°" + i, 18, 7, 4));
-                    case 2 -> enemies.add(new Skeleton("Skeleton N°" + i, 16, 5, 2));
+                    case 2 -> enemies.add(new Skeleton("Skeleton N°" + i, 16, 9, 2));
                 }
             }
         }
@@ -103,11 +103,11 @@ public class Game {
 
         // Création de la liste des héros et choix du héros
         List<Hero> availableHeroes = new ArrayList<>();
-        availableHeroes.add(new Hero("Captain-Ousmane", 10, 20, 3));
+        availableHeroes.add(new Hero("Captain-Ousmane", 10, 16, 3));
         availableHeroes.add(new Hero("Rock-Abdoulaye", 15, 15, 5));
         availableHeroes.add(new Hero("Archer", 20, 12, 2));
         availableHeroes.add(new Hero("Paladin", 22, 8, 6));
-        availableHeroes.add(new Hero("Rogue", 17, 14, 4));
+        availableHeroes.add(new Hero("Rogue", 25, 12, 4));
 
         System.out.println("Choose your hero:");
         for (int i = 0; i < availableHeroes.size(); i++) {
@@ -131,7 +131,7 @@ public class Game {
         hero = availableHeroes.get(heroChoice - 1);
         System.out.println("You have chosen: " + hero.getName());
 
-        logger.info("Game initialized on trail");
+        logger.info("Game initialized on trail " + card.getLocation());
         logger.info("Hero chosen: " + hero.getName() + " (HP: " + hero.getHealthPoints() + ", Attack: " + hero.getAttackPower() + ", Defense: " + hero.getDefense() + ")");
         logger.info(length + " enemies created for this level.");
     }
@@ -165,7 +165,6 @@ public class Game {
      * @throws IllegalStateException if the game state is inconsistent, e.g., no hero or enemies initialized.
      */
     public void startGame() {
-        logger.info("Initializing game...");
         logger.info(hero.getName() + " begins the adventure!");
         Random random = new Random();
 
@@ -175,7 +174,7 @@ public class Game {
                 return;
             }
 
-            logger.info("An enemy appears! It's a " + enemy.getName() + "!");
+            logger.info("An enemy appears! It's " + enemy.getName() + "!");
 
             // Vérifier si l'ennemi est un gangster
             boolean enemyAttacksFirst = enemy instanceof Gangster;
@@ -190,6 +189,12 @@ public class Game {
                         logger.info("The hero has fallen. Game over.");
                         return;
                     }
+                }
+
+                // Vérifier si le héros doit utiliser sa capacité spéciale
+                if (!hero.isSpecialAbilityUsed() && hero.getHealthPoints() < 10) {
+                    logger.info(hero.getName() + " is in critical health and uses his special ability!");
+                    hero.useSpecialAbility(enemy);
                 }
 
                 // Le héros attaque entre 1 et 5 fois aléatoirement
@@ -219,6 +224,7 @@ public class Game {
             logger.info("Defeat. Try again!");
         }
     }
+
 
 }
 

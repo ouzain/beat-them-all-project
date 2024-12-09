@@ -39,7 +39,7 @@ public class GameTest {
     public void testGangsterAttacksFirst() {
         Hero hero = new Hero("TestHero", 30, 10, 5); // Hero with 30 HP
         Gangster gangster = new Gangster("TestGangster", 20, 5, 3); // Gangster with 5 attack
-        //FIXME: réflchi sur la logique
+        //FIXME: logique ?
     }
 
 

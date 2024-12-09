@@ -1,104 +1,100 @@
-déc. 09, 2024 11:25:27 AM imt.fr.service.Game initializeGame
-INFO: Initializing game...
-déc. 09, 2024 11:25:56 AM imt.fr.service.Game initializeGame
-INFO: Game initialized on trail
-déc. 09, 2024 11:25:56 AM imt.fr.service.Game initializeGame
-INFO: Hero chosen: Captain-Ousmane (HP: 10, Attack: 20, Defense: 3)
-déc. 09, 2024 11:25:56 AM imt.fr.service.Game initializeGame
-INFO: 3 enemies created for this level.
-déc. 09, 2024 11:25:56 AM imt.fr.service.Game startGame
-INFO: Initializing game...
-déc. 09, 2024 11:25:56 AM imt.fr.service.Game startGame
-INFO: Captain-Ousmane begins the adventure!
-déc. 09, 2024 11:25:56 AM imt.fr.service.Game startGame
-INFO: An enemy appears! It's a Catcher N° 1!
-déc. 09, 2024 11:25:56 AM imt.fr.service.Game startGame
-INFO: Captain-Ousmane attacks 3 times!
-déc. 09, 2024 11:25:56 AM imt.fr.entity.Hero attack
-INFO: Captain-Ousmane attacks Catcher N° 1 with a power of 20
-déc. 09, 2024 11:25:56 AM imt.fr.entity.Enemies.Enemy receiveDamage
-INFO: Catcher N° 1 takes 15 damage after defense, remaining HP: 5
-déc. 09, 2024 11:25:56 AM imt.fr.entity.Hero attack
-INFO: Captain-Ousmane attacks Catcher N° 1 with a power of 20
-déc. 09, 2024 11:25:56 AM imt.fr.entity.Enemies.Enemy receiveDamage
-INFO: Catcher N° 1 takes 15 damage after defense, remaining HP: 0
-déc. 09, 2024 11:25:56 AM imt.fr.service.Game startGame
-INFO: The Catcher N° 1 has been defeated!
-déc. 09, 2024 11:25:56 AM imt.fr.service.Game startGame
-INFO: An enemy appears! It's a Necromancer N° 2!
-déc. 09, 2024 11:25:56 AM imt.fr.service.Game startGame
-INFO: Captain-Ousmane attacks 5 times!
-déc. 09, 2024 11:25:56 AM imt.fr.entity.Hero attack
-INFO: Captain-Ousmane attacks Necromancer N° 2 with a power of 20
-déc. 09, 2024 11:25:56 AM imt.fr.entity.Enemies.Enemy receiveDamage
-INFO: Necromancer N° 2 takes 16 damage after defense, remaining HP: 2
-déc. 09, 2024 11:25:56 AM imt.fr.entity.Hero attack
-INFO: Captain-Ousmane attacks Necromancer N° 2 with a power of 20
-déc. 09, 2024 11:25:56 AM imt.fr.entity.Enemies.Enemy receiveDamage
-INFO: Necromancer N° 2 takes 16 damage after defense, remaining HP: 0
-déc. 09, 2024 11:25:56 AM imt.fr.service.Game startGame
-INFO: The Necromancer N° 2 has been defeated!
-déc. 09, 2024 11:25:56 AM imt.fr.service.Game startGame
-INFO: An enemy appears! It's a Necromancer N° 3!
-déc. 09, 2024 11:25:56 AM imt.fr.service.Game startGame
-INFO: Captain-Ousmane attacks 5 times!
-déc. 09, 2024 11:25:56 AM imt.fr.entity.Hero attack
-INFO: Captain-Ousmane attacks Necromancer N° 3 with a power of 20
-déc. 09, 2024 11:25:56 AM imt.fr.entity.Enemies.Enemy receiveDamage
-INFO: Necromancer N° 3 takes 16 damage after defense, remaining HP: 2
-déc. 09, 2024 11:25:56 AM imt.fr.entity.Hero attack
-INFO: Captain-Ousmane attacks Necromancer N° 3 with a power of 20
-déc. 09, 2024 11:25:56 AM imt.fr.entity.Enemies.Enemy receiveDamage
-INFO: Necromancer N° 3 takes 16 damage after defense, remaining HP: 0
-déc. 09, 2024 11:25:56 AM imt.fr.service.Game startGame
-INFO: The Necromancer N° 3 has been defeated!
-déc. 09, 2024 11:25:56 AM imt.fr.service.Game startGame
-INFO: Congratulations, you completed the level!
-déc. 09, 2024 11:26:53 AM imt.fr.service.Game initializeGame
-INFO: Initializing game...
-déc. 09, 2024 11:29:48 AM imt.fr.service.Game initializeGame
-INFO: Game initialized on trail
-déc. 09, 2024 11:29:48 AM imt.fr.service.Game initializeGame
-INFO: Hero chosen: Captain-Ousmane (HP: 10, Attack: 20, Defense: 3)
-déc. 09, 2024 11:29:48 AM imt.fr.service.Game initializeGame
-INFO: 3 enemies created for this level.
-déc. 09, 2024 11:29:48 AM imt.fr.service.Game startGame
-INFO: Initializing game...
-déc. 09, 2024 11:29:48 AM imt.fr.service.Game startGame
-INFO: Captain-Ousmane begins the adventure!
-déc. 09, 2024 11:29:48 AM imt.fr.service.Game startGame
-INFO: An enemy appears! It's a Skeleton N°1!
-déc. 09, 2024 11:29:48 AM imt.fr.service.Game startGame
-INFO: Captain-Ousmane attacks 1 times!
-déc. 09, 2024 11:29:48 AM imt.fr.entity.Hero attack
-INFO: Captain-Ousmane attacks Skeleton N°1 with a power of 20
-déc. 09, 2024 11:29:48 AM imt.fr.entity.Enemies.Enemy receiveDamage
-INFO: Skeleton N°1 takes 18 damage after defense, remaining HP: 0
-déc. 09, 2024 11:29:48 AM imt.fr.service.Game startGame
+déc. 09, 2024 5:58:52 PM imt.fr.service.Game initializeGame
+INFO: Initializing the Game...
+déc. 09, 2024 5:58:58 PM imt.fr.service.Game initializeGame
+INFO: Game initialized on trail MOUNTAIN
+déc. 09, 2024 5:58:58 PM imt.fr.service.Game initializeGame
+INFO: Hero chosen: Rogue (HP: 25, Attack: 12, Defense: 4)
+déc. 09, 2024 5:58:58 PM imt.fr.service.Game initializeGame
+INFO: 5 enemies created for this level.
+déc. 09, 2024 5:58:58 PM imt.fr.service.Game startGame
+INFO: Rogue begins the adventure!
+déc. 09, 2024 5:58:58 PM imt.fr.service.Game startGame
+INFO: An enemy appears! It's Skeleton N°1!
+déc. 09, 2024 5:58:58 PM imt.fr.service.Game startGame
+INFO: Rogue attacks 2 times!
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Hero attack
+INFO: Rogue attacks Skeleton N°1 with a power of 12
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Enemies.Enemy receiveDamage
+INFO: Skeleton N°1 takes 10 damage after defense, remaining HP: 6
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Hero attack
+INFO: Rogue attacks Skeleton N°1 with a power of 12
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Enemies.Enemy receiveDamage
+INFO: Skeleton N°1 takes 10 damage after defense, remaining HP: 0
+déc. 09, 2024 5:58:58 PM imt.fr.service.Game startGame
 INFO: The Skeleton N°1 has been defeated!
-déc. 09, 2024 11:29:48 AM imt.fr.service.Game startGame
-INFO: An enemy appears! It's a Necromancer N°2!
-déc. 09, 2024 11:29:48 AM imt.fr.service.Game startGame
-INFO: Captain-Ousmane attacks 4 times!
-déc. 09, 2024 11:29:48 AM imt.fr.entity.Hero attack
-INFO: Captain-Ousmane attacks Necromancer N°2 with a power of 20
-déc. 09, 2024 11:29:48 AM imt.fr.entity.Enemies.Enemy receiveDamage
-INFO: Necromancer N°2 takes 16 damage after defense, remaining HP: 2
-déc. 09, 2024 11:29:48 AM imt.fr.entity.Hero attack
-INFO: Captain-Ousmane attacks Necromancer N°2 with a power of 20
-déc. 09, 2024 11:29:48 AM imt.fr.entity.Enemies.Enemy receiveDamage
-INFO: Necromancer N°2 takes 16 damage after defense, remaining HP: 0
-déc. 09, 2024 11:29:48 AM imt.fr.service.Game startGame
-INFO: The Necromancer N°2 has been defeated!
-déc. 09, 2024 11:29:48 AM imt.fr.service.Game startGame
-INFO: An enemy appears! It's a Skeleton N°3!
-déc. 09, 2024 11:29:48 AM imt.fr.service.Game startGame
-INFO: Captain-Ousmane attacks 3 times!
-déc. 09, 2024 11:29:48 AM imt.fr.entity.Hero attack
-INFO: Captain-Ousmane attacks Skeleton N°3 with a power of 20
-déc. 09, 2024 11:29:48 AM imt.fr.entity.Enemies.Enemy receiveDamage
-INFO: Skeleton N°3 takes 18 damage after defense, remaining HP: 0
-déc. 09, 2024 11:29:48 AM imt.fr.service.Game startGame
-INFO: The Skeleton N°3 has been defeated!
-déc. 09, 2024 11:29:48 AM imt.fr.service.Game startGame
-INFO: Congratulations, you completed the level!
+déc. 09, 2024 5:58:58 PM imt.fr.service.Game startGame
+INFO: An enemy appears! It's Gangster N°2!
+déc. 09, 2024 5:58:58 PM imt.fr.service.Game startGame
+INFO: Gangster N°2 attacks first!
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Enemies.Enemy attack
+INFO: Gangster N°2 attacks Rogue with a power of 14
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Hero receiveDamage
+INFO: Rogue takes 10 damage (reduced by defense), remaining HP: 15
+déc. 09, 2024 5:58:58 PM imt.fr.service.Game startGame
+INFO: Rogue attacks 5 times!
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Hero attack
+INFO: Rogue attacks Gangster N°2 with a power of 12
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Enemies.Enemy receiveDamage
+INFO: Gangster N°2 takes 9 damage after defense, remaining HP: 6
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Hero attack
+INFO: Rogue attacks Gangster N°2 with a power of 12
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Enemies.Enemy receiveDamage
+INFO: Gangster N°2 takes 9 damage after defense, remaining HP: 0
+déc. 09, 2024 5:58:58 PM imt.fr.service.Game startGame
+INFO: The Gangster N°2 has been defeated!
+déc. 09, 2024 5:58:58 PM imt.fr.service.Game startGame
+INFO: An enemy appears! It's Catcher N°3!
+déc. 09, 2024 5:58:58 PM imt.fr.service.Game startGame
+INFO: Rogue attacks 5 times!
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Hero attack
+INFO: Rogue attacks Catcher N°3 with a power of 12
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Enemies.Enemy receiveDamage
+INFO: Catcher N°3 takes 7 damage after defense, remaining HP: 13
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Hero attack
+INFO: Rogue attacks Catcher N°3 with a power of 12
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Enemies.Enemy receiveDamage
+INFO: Catcher N°3 takes 7 damage after defense, remaining HP: 6
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Hero attack
+INFO: Rogue attacks Catcher N°3 with a power of 12
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Enemies.Enemy receiveDamage
+INFO: Catcher N°3 takes 7 damage after defense, remaining HP: 0
+déc. 09, 2024 5:58:58 PM imt.fr.service.Game startGame
+INFO: The Catcher N°3 has been defeated!
+déc. 09, 2024 5:58:58 PM imt.fr.service.Game startGame
+INFO: An enemy appears! It's Gangster N°4!
+déc. 09, 2024 5:58:58 PM imt.fr.service.Game startGame
+INFO: Gangster N°4 attacks first!
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Enemies.Enemy attack
+INFO: Gangster N°4 attacks Rogue with a power of 14
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Hero receiveDamage
+INFO: Rogue takes 10 damage (reduced by defense), remaining HP: 5
+déc. 09, 2024 5:58:58 PM imt.fr.service.Game startGame
+INFO: Rogue is in critical health and uses his special ability!
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Hero useSpecialAbility
+INFO: Rogue uses One Shot and defeats Gangster N°4 instantly!
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Enemies.Enemy receiveDamage
+INFO: Gangster N°4 takes 12 damage after defense, remaining HP: 3
+déc. 09, 2024 5:58:58 PM imt.fr.service.Game startGame
+INFO: Rogue attacks 3 times!
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Hero attack
+INFO: Rogue attacks Gangster N°4 with a power of 12
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Enemies.Enemy receiveDamage
+INFO: Gangster N°4 takes 9 damage after defense, remaining HP: 0
+déc. 09, 2024 5:58:58 PM imt.fr.service.Game startGame
+INFO: The Gangster N°4 has been defeated!
+déc. 09, 2024 5:58:58 PM imt.fr.service.Game startGame
+INFO: An enemy appears! It's Skeleton N°5!
+déc. 09, 2024 5:58:58 PM imt.fr.service.Game startGame
+INFO: Rogue attacks 1 times!
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Hero attack
+INFO: Rogue attacks Skeleton N°5 with a power of 12
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Enemies.Enemy receiveDamage
+INFO: Skeleton N°5 takes 10 damage after defense, remaining HP: 6
+déc. 09, 2024 5:58:58 PM imt.fr.service.Game startGame
+INFO: Skeleton N°5 counterattacks!
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Enemies.Enemy attack
+INFO: Skeleton N°5 attacks Rogue with a power of 9
+déc. 09, 2024 5:58:58 PM imt.fr.entity.Hero receiveDamage
+INFO: Rogue takes 5 damage (reduced by defense), remaining HP: 0
+déc. 09, 2024 5:58:58 PM imt.fr.service.Game startGame
+INFO: Defeat. Try again!

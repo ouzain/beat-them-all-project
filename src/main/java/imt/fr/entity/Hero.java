@@ -63,12 +63,11 @@ public class Hero extends Actors implements Actions {
         }
 
         SpecialAbility ability = getRandomSpecialAbility();
-        logger.info(name + " randomly selects special ability: " + ability);
 
         switch (ability) {
             case MATRIX:
-                logger.info(name + " uses Matrix and dodges attacks for 2 turns!");
-                this.healthPoints+= 2*target.attackPower;
+                logger.info(name + " uses Matrix and dodges attacks for 1 turns!");
+                this.healthPoints+= target.attackPower;
                 break;
             case HEAL:
                 logger.info(name + " uses Heal and restores health!");
